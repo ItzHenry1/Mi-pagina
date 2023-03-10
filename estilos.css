@@ -68,6 +68,7 @@ li a:hover {
   padding-top: 20px; /* Add some space between the top of the box and the title */
   padding: 20px; /* Add some padding to the edges of the box */
   border: 1px solid #ccc;
+  transition: transform 0.2s ease-in-out;
 }
 
 .box h2 {
@@ -77,6 +78,10 @@ li a:hover {
 
 .box p {
   line-height: 1.5; /* Add some space between the lines of text */
+}
+
+.box:hover {
+  transform: scale(1.1);
 }
 
 #footer1 {
