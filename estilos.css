@@ -99,3 +99,18 @@ li a:hover {
   font-weight: normal; /* Set the font-weight to normal */
   text-align: center;
 }
+
+.rounded-button {
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.rounded-button:hover {
+  background-color: #0062cc;
+}
