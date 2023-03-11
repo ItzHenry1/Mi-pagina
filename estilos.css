@@ -24,6 +24,7 @@ nav {
   height: 50px;
   display: flex;
   justify-content: center;
+  border-radius: 10px;
 }
 
 ul {
